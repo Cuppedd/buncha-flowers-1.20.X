@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "buncha_flowers:block/peonies/spring_pink_peony_top"
+  }
+}

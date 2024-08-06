@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "buncha_flowers:block/lilacs/light_pink_lilac_top"
+  }
+}

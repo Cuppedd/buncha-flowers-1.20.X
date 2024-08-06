@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "buncha_flowers:block/peonies/magenta_peony_top"
+  }
+}

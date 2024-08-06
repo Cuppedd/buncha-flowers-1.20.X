@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "buncha_flowers:block/rosebushes/orange_rose_bush_top"
+  }
+}

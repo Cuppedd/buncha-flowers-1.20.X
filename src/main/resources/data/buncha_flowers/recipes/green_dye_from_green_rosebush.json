@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "green_dye",
+  "ingredients": [
+    {
+      "item": "buncha_flowers:green_rose_bush"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_dye"
+  }
+}

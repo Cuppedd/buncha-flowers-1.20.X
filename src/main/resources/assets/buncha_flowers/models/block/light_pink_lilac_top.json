@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "buncha_flowers:block/lilacs/light_pink_lilac_top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "buncha_flowers:block/light_purple_lilac_bottom"
+    },
+    "half=upper": {
+      "model": "buncha_flowers:block/light_purple_lilac_top"
+    }
+  }
+}

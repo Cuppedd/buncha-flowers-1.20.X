@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "buncha_flowers:yellow_peony",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "buncha_flowers:yellow_peony"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "buncha_flowers:blocks/yellow_peony"
+}
