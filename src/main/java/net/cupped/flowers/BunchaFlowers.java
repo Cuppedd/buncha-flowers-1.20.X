@@ -3,6 +3,8 @@ package net.cupped.flowers;
 import net.cupped.flowers.block.ModBlocks;
 import net.cupped.flowers.item.ModItemGroups;
 import net.cupped.flowers.item.ModItems;
+import net.cupped.flowers.util.ModLootTableModifiers;
+import net.cupped.flowers.util.ModRegistries;
 import net.cupped.flowers.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,5 +22,8 @@ public class BunchaFlowers implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGeneration();
+
+		ModLootTableModifiers.modifyLootTables();
+		ModRegistries.registerModStuffs();
 	}
 }
