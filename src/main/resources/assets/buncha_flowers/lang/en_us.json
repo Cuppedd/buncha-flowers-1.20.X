@@ -79,6 +79,18 @@
   "block.buncha_flowers.white_peony": "White Peony",
   "block.buncha_flowers.yellow_peony": "Yellow Peony",
 
+  "item.buncha_flowers.poppy_seeds": "Poppy seeds",
+  "item.buncha_flowers.dandelion_seeds": "Dandelion seeds",
+  "item.buncha_flowers.allium_seeds": "Allium seeds",
+  "item.buncha_flowers.lov_seeds": "Lily of the Valley seeds",
+  "item.buncha_flowers.orchid_seeds": "Orchid seeds",
+  "item.buncha_flowers.tulip_seeds": "Tulip seeds",
+  "item.buncha_flowers.cornflower_seeds": "Cornflower seeds",
+  "item.buncha_flowers.rose_seeds": "Rose seeds",
+  "item.buncha_flowers.lilac_seeds": "Lilac seeds",
+  "item.buncha_flowers.peony_seeds": "Peony seeds",
+
+
   //edited vanilla flower names
 
   "block.minecraft.poppy": "Red Poppy",

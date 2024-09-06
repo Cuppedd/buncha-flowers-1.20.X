@@ -18,6 +18,7 @@ public class ModItemGroups {
                         //dandelions
                         entries.add(ModBlocks.WHITE_DANDELION);
                         entries.add(ModBlocks.PINK_DANDELION);
+
                         //poppies
                         entries.add(ModBlocks.BLUSH_POPPY);
                         entries.add(ModBlocks.CORAL_REEF_POPPY);
@@ -35,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_POPPY);
                         entries.add(ModBlocks.WHITE_WITH_NAVY_CENTER_POPPY);
                         entries.add(ModBlocks.WISTERIA_POPPY);
+
                         //orchids
                         entries.add(ModBlocks.ORANGE_ORCHID);
                         entries.add(ModBlocks.PINK_ORCHID);
@@ -42,12 +44,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RED_ORCHID);
                         entries.add(ModBlocks.WHITE_ORCHID);
                         entries.add(ModBlocks.YELLOW_ORCHID);
+
                         //alliums
                         entries.add(ModBlocks.BLUE_ALLIUM);
                         entries.add(ModBlocks.DRUMBSTICK_ALLIUM);
                         entries.add(ModBlocks.PINK_ALLIUM);
                         entries.add(ModBlocks.WHITE_ALLIUM);
                         entries.add(ModBlocks.YELLOW_ALLIUM);
+
                         //tulips
                         entries.add(ModBlocks.BLACK_TULIP);
                         entries.add(ModBlocks.HOT_PINK_TULIP);
@@ -55,6 +59,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOFT_PINK_TULIP);
                         entries.add(ModBlocks.WINE_TULIP);
                         entries.add(ModBlocks.YELLOW_TULIP);
+
                         //cornflowers
                         entries.add(ModBlocks.LIGHT_BLUE_CORNFLOWER);
                         entries.add(ModBlocks.LIGHT_PINK_CORNFLOWER);
@@ -62,8 +67,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUM_CORNFLOWER);
                         entries.add(ModBlocks.PURPLE_CORNFLOWER);
                         entries.add(ModBlocks.WHITE_CORNFLOWER);
+
                         //lov
                         entries.add(ModBlocks.PINK_LOV);
+
                         //lilacs
                         entries.add(ModBlocks.BLUE_LILAC);
                         entries.add(ModBlocks.LIGHT_PINK_LILAC);
@@ -71,6 +78,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUM_LILAC);
                         entries.add(ModBlocks.VIOLET_LILAC);
                         entries.add(ModBlocks.WHITE_LILAC);
+
                         //rosebushes
                         entries.add(ModBlocks.BLACK_ROSE_BUSH);
                         entries.add(ModBlocks.BLUE_ROSE_BUSH);
@@ -87,6 +95,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SALMON_ROSE_BUSH);
                         entries.add(ModBlocks.WHITE_ROSE_BUSH);
                         entries.add(ModBlocks.YELLOW_ROSE_BUSH);
+
                         //peonies
                         entries.add(ModBlocks.BLACK_PEONY);
                         entries.add(ModBlocks.BLUE_PEONY);
@@ -100,6 +109,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPRING_PINK_PEONY);
                         entries.add(ModBlocks.WHITE_PEONY);
                         entries.add(ModBlocks.YELLOW_PEONY);
+
+                        //seeds
+                        entries.add(ModItems.POPPY_SEEDS);
+                        entries.add(ModItems.DANDELION_SEEDS);
+                        entries.add(ModItems.ALLIUM_SEEDS);
+                        entries.add(ModItems.LOV_SEEDS);
+                        entries.add(ModItems.ORCHID_SEEDS);
+                        entries.add(ModItems.TULIP_SEEDS);
+                        entries.add(ModItems.CORNFLOWER_SEEDS);
+                        entries.add(ModItems.ROSE_SEEDS);
+                        entries.add(ModItems.LILAC_SEEDS);
+                        entries.add(ModItems.PEONY_SEEDS);
+
+
 
                     }).build());
 

@@ -15,6 +15,22 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.125,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buncha_flowers:poppy_seeds"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }
