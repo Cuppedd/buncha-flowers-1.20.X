@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "default_state": {
+              "Name": "buncha_flowers:black_rose_bush",
+              "Properties": {
+                "half": "lower"
+              }
+            },
+            "high_chance": 0.758,
+            "high_states": [
+              {
+                "Name": "buncha_flowers:blue_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:burgundy_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:coral_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:cream_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:dark_pink_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:orange_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:peach_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:pink_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:purple_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:salmon_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:white_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:yellow_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              }
+            ],
+            "low_states": [
+              {
+                "Name": "minecraft:rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              }
+            ],
+            "noise": {
+              "amplitudes": [
+                0.1
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.005,
+            "seed": 2345,
+            "threshold": -0.8
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 4,
+    "y_spread": 2
+  }
+}

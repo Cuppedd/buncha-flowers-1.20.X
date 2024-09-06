@@ -1,0 +1,6 @@
+{"type":"botanypots:crop",
+  "seed":{"item":"buncha_flowers:purple_tulip"},
+  "categories":["dirt"],
+  "growthTicks":1200,"display":{"block":"buncha_flowers:purple_tulip"},
+  "drops":[{"chance":1.00,
+    "output":{"item":"buncha_flowers:purple_tulip"}}]}

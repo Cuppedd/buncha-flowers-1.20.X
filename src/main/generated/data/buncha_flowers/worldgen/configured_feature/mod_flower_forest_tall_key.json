@@ -1,0 +1,235 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_provider",
+            "noise": {
+              "amplitudes": [
+                1.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.020833334,
+            "seed": 2345,
+            "states": [
+              {
+                "Name": "buncha_flowers:black_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:blue_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:burgundy_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:coral_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:cream_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:dark_pink_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:green_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:orange_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:peach_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:pink_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:purple_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:rainbow_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:salmon_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:white_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:yellow_rose_bush",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:blue_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:light_pink_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:light_purple_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:plum_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:violet_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:white_lilac",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:black_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:blue_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:dark_pink_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:fuschia_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:magenta_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:pastel_blue_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:peach_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:purple_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:red_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:spring_pink_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:white_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              },
+              {
+                "Name": "buncha_flowers:yellow_peony",
+                "Properties": {
+                  "half": "lower"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 96,
+    "xz_spread": 6,
+    "y_spread": 2
+  }
+}

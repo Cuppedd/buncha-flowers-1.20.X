@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_provider",
+            "noise": {
+              "amplitudes": [
+                1.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.020833334,
+            "seed": 2345,
+            "states": [
+              {
+                "Name": "buncha_flowers:pink_dandelion"
+              },
+              {
+                "Name": "buncha_flowers:white_dandelion"
+              },
+              {
+                "Name": "buncha_flowers:blush_poppy"
+              },
+              {
+                "Name": "buncha_flowers:coral_reef_poppy"
+              },
+              {
+                "Name": "buncha_flowers:cream_poppy"
+              },
+              {
+                "Name": "buncha_flowers:dark_navy_poppy"
+              },
+              {
+                "Name": "buncha_flowers:dark_wine_poppy"
+              },
+              {
+                "Name": "buncha_flowers:hot_pink_poppy"
+              },
+              {
+                "Name": "buncha_flowers:lavender_poppy"
+              },
+              {
+                "Name": "buncha_flowers:orange_poppy"
+              },
+              {
+                "Name": "buncha_flowers:peach_bellini_poppy"
+              },
+              {
+                "Name": "buncha_flowers:reddish_pink_poppy"
+              },
+              {
+                "Name": "buncha_flowers:soft_yellow_poppy"
+              },
+              {
+                "Name": "buncha_flowers:spa_aqua_poppy"
+              },
+              {
+                "Name": "buncha_flowers:turquoise_poppy"
+              },
+              {
+                "Name": "buncha_flowers:white_poppy"
+              },
+              {
+                "Name": "buncha_flowers:white_with_navy_center_poppy"
+              },
+              {
+                "Name": "buncha_flowers:wisteria_poppy"
+              },
+              {
+                "Name": "buncha_flowers:blue_allium"
+              },
+              {
+                "Name": "buncha_flowers:drumbstick_allium"
+              },
+              {
+                "Name": "buncha_flowers:pink_allium"
+              },
+              {
+                "Name": "buncha_flowers:white_allium"
+              },
+              {
+                "Name": "buncha_flowers:yellow_allium"
+              },
+              {
+                "Name": "buncha_flowers:black_tulip"
+              },
+              {
+                "Name": "buncha_flowers:hot_pink_tulip"
+              },
+              {
+                "Name": "buncha_flowers:purple_tulip"
+              },
+              {
+                "Name": "buncha_flowers:soft_pink_tulip"
+              },
+              {
+                "Name": "buncha_flowers:wine_tulip"
+              },
+              {
+                "Name": "buncha_flowers:yellow_tulip"
+              },
+              {
+                "Name": "buncha_flowers:light_blue_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:light_pink_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:pink_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:plum_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:purple_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:white_cornflower"
+              },
+              {
+                "Name": "buncha_flowers:pink_lov"
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 96,
+    "xz_spread": 6,
+    "y_spread": 2
+  }
+}

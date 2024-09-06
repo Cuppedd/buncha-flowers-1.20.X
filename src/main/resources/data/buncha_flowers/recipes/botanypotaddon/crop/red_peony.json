@@ -1,0 +1,9 @@
+{"type":"botanypots:crop",
+  "seed":{"item":"buncha_flowers:red_peony"},
+  "categories":["dirt"],"growthTicks":1200,
+  "display":[{"block":"buncha_flowers:red_peony",
+    "properties":{"half":"lower"}},
+    {"block":"buncha_flowers:red_peony",
+      "properties":{"half":"upper"}}],
+  "drops":[{"chance":1.00,
+    "output":{"item":"buncha_flowers:red_peony"}}]}
