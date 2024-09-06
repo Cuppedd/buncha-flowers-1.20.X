@@ -110,6 +110,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WHITE_PEONY);
                         entries.add(ModBlocks.YELLOW_PEONY);
 
+
+
+                    }).build());
+
+    public static final ItemGroup BUNCHA_SEEDS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(BunchaFlowers.MOD_ID, "buncha_seeds"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.buncha_seeds"))
+                    .icon(() -> new ItemStack(ModItems.TULIP_SEEDS)).entries((displayContext, entries) -> {
+
                         //seeds
                         entries.add(ModItems.POPPY_SEEDS);
                         entries.add(ModItems.DANDELION_SEEDS);
@@ -121,8 +129,6 @@ public class ModItemGroups {
                         entries.add(ModItems.ROSE_SEEDS);
                         entries.add(ModItems.LILAC_SEEDS);
                         entries.add(ModItems.PEONY_SEEDS);
-
-
 
                     }).build());
 
