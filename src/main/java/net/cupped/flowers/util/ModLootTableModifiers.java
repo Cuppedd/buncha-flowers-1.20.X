@@ -28,6 +28,9 @@ public class ModLootTableModifiers {
     private static final Identifier ROSE_BUSH_ID = new Identifier("minecraft", "blocks/rose_bush");
     private static final Identifier LILAC_ID = new Identifier("minecraft", "blocks/lilac");
     private static final Identifier PEONY_ID = new Identifier("minecraft", "blocks/peony");
+    private static final Identifier OXEYE_DAISY_ID = new Identifier("minecraft", "blocks/oxeye_daisy");
+    private static final Identifier AZURE_BLUET_ID = new Identifier("minecraft", "blocks/azure_bluet");
+    private static final Identifier SUNFLOWER_ID = new Identifier("minecraft", "blocks/sunflower");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
@@ -361,6 +364,27 @@ public class ModLootTableModifiers {
 
             if (PEONY_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder().rolls(ConstantLootNumberProvider.create(1)).conditionally(RandomChanceLootCondition.builder(0.125f)).with(ItemEntry.builder(ModItems.PEONY_SEEDS)).apply(
+                        SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (OXEYE_DAISY_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder().rolls(ConstantLootNumberProvider.create(1)).conditionally(RandomChanceLootCondition.builder(0.125f)).with(ItemEntry.builder(ModItems.OXEYE_DAISY_SEEDS)).apply(
+                        SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (AZURE_BLUET_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder().rolls(ConstantLootNumberProvider.create(1)).conditionally(RandomChanceLootCondition.builder(0.125f)).with(ItemEntry.builder(ModItems.AZURE_BLUET_SEEDS)).apply(
+                        SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (SUNFLOWER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder().rolls(ConstantLootNumberProvider.create(1)).conditionally(RandomChanceLootCondition.builder(0.125f)).with(ItemEntry.builder(ModItems.SUNFLOWER_SEEDS)).apply(
                         SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

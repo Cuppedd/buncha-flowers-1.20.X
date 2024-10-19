@@ -1,6 +1,6 @@
 {
   "itemgroup.buncha_flowers": "Bunch'a Flowers",
-  "itemgroup.buncha_seeds": "Bunch'a Seeds",
+  "itemgroup.buncha_things": "Bunch'a Things",
 
 
   "block.buncha_flowers.blush_poppy": "Blush Poppy",
@@ -89,6 +89,9 @@
   "item.buncha_flowers.rose_seeds": "Rose seeds",
   "item.buncha_flowers.lilac_seeds": "Lilac seeds",
   "item.buncha_flowers.peony_seeds": "Peony seeds",
+  "item.buncha_flowers.oxeye_daisy_seeds": "Oxeye Daisy seeds",
+  "item.buncha_flowers.azure_bluet_seeds": "Azure Bluet seeds",
+  "item.buncha_flowers.sunflower_seeds": "Sunflower seeds",
 
 
   //edited vanilla flower names

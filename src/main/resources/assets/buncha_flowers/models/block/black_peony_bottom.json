@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/peonies/black_peony_bottom"
+    "cross": "buncha_flowers:block/flowers/peonies/black_peony_bottom"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/orchids/yellow_orchid"
+    "layer0": "buncha_flowers:block/flowers/orchids/yellow_orchid"
   }
 }

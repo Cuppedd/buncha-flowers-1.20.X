@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/tulips/purple_tulip"
+    "layer0": "buncha_flowers:block/flowers/tulips/purple_tulip"
   }
 }

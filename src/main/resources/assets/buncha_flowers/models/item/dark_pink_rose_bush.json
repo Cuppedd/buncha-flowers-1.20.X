@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/rosebushes/dark_pink_rose_bush_top"
+    "layer0": "buncha_flowers:block/flowers/rosebushes/dark_pink_rose_bush_top"
   }
 }

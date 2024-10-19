@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/poppies/white_with_navy_center"
+    "layer0": "buncha_flowers:block/flowers/poppies/white_with_navy_center"
   }
 }

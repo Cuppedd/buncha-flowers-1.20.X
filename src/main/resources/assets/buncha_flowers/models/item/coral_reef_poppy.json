@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/poppies/coral_reef"
+    "layer0": "buncha_flowers:block/flowers/poppies/coral_reef"
   }
 }

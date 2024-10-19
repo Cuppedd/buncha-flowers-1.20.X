@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/cornflowers/plum_cornflower"
+    "layer0": "buncha_flowers:block/flowers/cornflowers/plum_cornflower"
   }
 }

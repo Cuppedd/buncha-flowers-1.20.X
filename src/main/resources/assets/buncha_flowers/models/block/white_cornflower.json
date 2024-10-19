@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/cornflowers/white_cornflower"
+    "cross": "buncha_flowers:block/flowers/cornflowers/white_cornflower"
   }
 }

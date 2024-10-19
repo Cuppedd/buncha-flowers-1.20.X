@@ -160,5 +160,8 @@ public class BunchaFlowersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_PEONY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_PEONY, RenderLayer.getCutout());
 
+        //crops
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.OXEYE_DAISY_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AZURE_BLUET_CROP, RenderLayer.getCutout());
     }
 }

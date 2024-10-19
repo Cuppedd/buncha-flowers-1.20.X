@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/poppies/lavender"
+    "cross": "buncha_flowers:block/flowers/poppies/lavender"
   }
 }

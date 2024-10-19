@@ -1,6 +1,6 @@
 {
   "parent": "block/flower_pot_cross",
   "textures": {
-    "plant": "buncha_flowers:block/dandelions/pink_dandelion"
+    "plant": "buncha_flowers:block/flowers/dandelions/pink_dandelion"
   }
 }

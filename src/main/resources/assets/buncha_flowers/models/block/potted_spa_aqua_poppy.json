@@ -1,6 +1,6 @@
 {
   "parent": "block/flower_pot_cross",
   "textures": {
-    "plant": "buncha_flowers:block/poppies/spa_aqua"
+    "plant": "buncha_flowers:block/flowers/poppies/spa_aqua"
   }
 }

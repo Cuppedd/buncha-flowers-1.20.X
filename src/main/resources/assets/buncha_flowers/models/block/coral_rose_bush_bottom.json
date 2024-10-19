@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/rosebushes/coral_rose_bush_bottom"
+    "cross": "buncha_flowers:block/flowers/rosebushes/coral_rose_bush_bottom"
   }
 }

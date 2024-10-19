@@ -1,9 +1,11 @@
 package net.cupped.flowers.item;
 
 import net.cupped.flowers.BunchaFlowers;
+import net.cupped.flowers.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -22,6 +24,9 @@ public class ModItems {
     public static final Item ROSE_SEEDS = registerItem("rose_seeds", new Item(new FabricItemSettings()));
     public static final Item LILAC_SEEDS = registerItem("lilac_seeds", new Item(new FabricItemSettings()));
     public static final Item PEONY_SEEDS = registerItem("peony_seeds", new Item(new FabricItemSettings()));
+    public static final Item OXEYE_DAISY_SEEDS = registerItem("oxeye_daisy_seeds", new AliasedBlockItem(ModBlocks.OXEYE_DAISY_CROP, new FabricItemSettings()));
+    public static final Item AZURE_BLUET_SEEDS = registerItem("azure_bluet_seeds", new AliasedBlockItem(ModBlocks.AZURE_BLUET_CROP, new FabricItemSettings()));
+    public static final Item SUNFLOWER_SEEDS = registerItem("sunflower_seeds", new Item(new FabricItemSettings()));
 
     private static void addItemsToTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(POPPY_SEEDS);
@@ -34,6 +39,9 @@ public class ModItems {
         entries.add(ROSE_SEEDS);
         entries.add(LILAC_SEEDS);
         entries.add(PEONY_SEEDS);
+        entries.add(OXEYE_DAISY_SEEDS);
+        entries.add(AZURE_BLUET_SEEDS);
+        entries.add(SUNFLOWER_SEEDS);
     }
 
     private static Item registerItem(String name, Item item) {

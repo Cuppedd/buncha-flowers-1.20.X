@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/poppies/spa_aqua"
+    "layer0": "buncha_flowers:block/flowers/poppies/spa_aqua"
   }
 }

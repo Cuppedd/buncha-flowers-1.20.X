@@ -1,6 +1,7 @@
 package net.cupped.flowers.block;
 
 import net.cupped.flowers.BunchaFlowers;
+import net.cupped.flowers.block.custom.FlowerCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -323,7 +324,17 @@ public class ModBlocks {
     public static final Block YELLOW_PEONY =registerBlock("yellow_peony",
             new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.PEONY).nonOpaque().noCollision()));
 
+    //not multicolored crops
+    public static final Block OXEYE_DAISY_CROP =registerBlockWithoutItem("oxeye_daisy_crop",
+            new FlowerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static final Block AZURE_BLUET_CROP =registerBlockWithoutItem("azure_bluet_crop",
+            new FlowerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
     //helpers
+    private static Block registerBlockWithoutItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(BunchaFlowers.MOD_ID, name), block);
+    }
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(BunchaFlowers.MOD_ID, name), block);

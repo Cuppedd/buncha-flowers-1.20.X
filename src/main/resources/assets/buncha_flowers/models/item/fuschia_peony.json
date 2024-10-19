@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "buncha_flowers:block/peonies/fuschia_peony_top"
+    "layer0": "buncha_flowers:block/flowers/peonies/fuschia_peony_top"
   }
 }

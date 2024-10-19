@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/alliums/pink_allium"
+    "cross": "buncha_flowers:block/flowers/alliums/pink_allium"
   }
 }

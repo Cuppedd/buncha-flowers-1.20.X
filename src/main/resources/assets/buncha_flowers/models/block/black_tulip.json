@@ -1,6 +1,6 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "buncha_flowers:block/tulips/black_tulip"
+    "cross": "buncha_flowers:block/flowers/tulips/black_tulip"
   }
 }
